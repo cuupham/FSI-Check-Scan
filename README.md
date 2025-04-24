@@ -1,8 +1,8 @@
-Exe này dùng để đổi tên file pdf scan khi Check Scan tại FSI.
+Exe này dùng để đổi tên file pdf scan khi Check Scan tại FSI.  
 
-Example:
+Example:  
 
-Folder check scan đang có các file:
+Folder check scan đang có các file:  
 00001.pdf
 001.pdf
 01.pdf
@@ -23,7 +23,7 @@ A54.pdf
 BIA.pdf
 BIA1.pdf
 
-Sau khi rename:
+Sau khi rename:  
 01.pdf
 02.pdf
 03.pdf
@@ -44,4 +44,4 @@ A54.pdf
 BIA.pdf
 BIA1.pdf
 
-Exe chỉ đổi tên các file có dạng [0-9]*.pdf
+Exe chỉ đổi tên các file có dạng [0-9]*.pdf  
