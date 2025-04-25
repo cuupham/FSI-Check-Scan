@@ -49,18 +49,22 @@ def on_rename_clicked(entry_widget):
 
 def setup_ui():
     root = tk.Tk()
-    root.title("Rename PDF Scan")
-    root.iconbitmap(
-        r"C:\Users\M10\Documents\MythProjects\Tweaks\__assests\folderredscript_92992.ico"
-    )
-    root.geometry("390x190")
-    root.resizable(False, False)
+    root.title("PDF Renamer")
+
+    window_width = 360
+    window_height = 160
+    screen_width = root.winfo_screenwidth()
+    screen_height = root.winfo_screenheight()
+    x = int((screen_width / 2) - (window_width / 2))
+    y = int((screen_height / 2) - (window_height / 2))
+    root.geometry(f"{window_width}x{window_height}+{x}+{y}")
+    root.resizable(False, False)    
 
     style = ttk.Style()
     style.theme_use("clam")
-    style.configure("TLabel", font=("Segoe UI", 12))
-    style.configure("TButton", font=("Segoe UI", 11), padding=6)
-    style.configure("TEntry", font=("Segoe UI", 11))
+    style.configure("TLabel", font=("Fixedsys", 12))
+    style.configure("TButton", font=("Fixedsys", 11), padding=6)
+    style.configure("TEntry", font=("Fixedsys", 11))
 
     main_frame = ttk.Frame(root, padding=20)
     main_frame.grid(row=0, column=0, sticky="nsew")
