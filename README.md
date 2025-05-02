@@ -1,6 +1,6 @@
 # PDF Renamer
 * Software thực hiện đổi tên các file PDF trong thư mục chỉ định.
-* Dùng cho công việc CHECK SCAN tại FSI.
+* Dùng cho công việc **CHECK SCAN** tại FSI.
 
 ## Example
 
